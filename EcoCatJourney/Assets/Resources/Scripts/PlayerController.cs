@@ -4,7 +4,7 @@ public class PlayerController: MonoBehaviour
 {
     [Header("Player Settings")]
     public int Speed = 5;
-    public float JumpForce = 100;
+    public float JumpForce = 1;
 
     [Header("Ground Checking")]
     public LayerMask GroundLayer = 0;
@@ -30,7 +30,7 @@ public class PlayerController: MonoBehaviour
     void Jump()
     {
         if (m_grounded && Input.GetKeyDown(KeyCode.Space)) {
-            m_rigidbody.velocity = new Vector2(m_rigidbody.velocity.x, JumpForce*3);
+            m_rigidbody.velocity = new Vector2(m_rigidbody.velocity.x, JumpForce);
         }
     }
 }
