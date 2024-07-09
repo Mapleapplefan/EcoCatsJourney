@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 public class ChangingScenes : MonoBehaviour
 {
     public void PlayGame(){
-    SceneManager.LoadSceneAsync(1);
+    SceneManager.LoadSceneAsync("Level 1");
+   }
+
+   public void PlayLevel2(){
+    SceneManager.LoadSceneAsync("Level 2");
    }
 }
