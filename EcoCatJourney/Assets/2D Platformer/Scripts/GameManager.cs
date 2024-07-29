@@ -10,13 +10,13 @@ namespace Platformer
         public int coinsCounter = 0;
 
         public GameObject playerGameObject;
-        private PlayerController player;
+        private PlayerMovement player;
         public GameObject deathPlayerPrefab;
         public Text coinText;
 
         void Start()
         {
-            player = GameObject.Find("Player").GetComponent<PlayerController>();
+            player = GameObject.Find("Player").GetComponent<PlayerMovement>();
         }
 
         void Update()
@@ -25,7 +25,7 @@ namespace Platformer
             if(player.deathState == true)
             {
                 playerGameObject.SetActive(false);
-                GameObject deathPlayer = (GameObject)Instantiate(deathPlayerPrefab, playerGameObject.transform.position, playerGameObject.transform.rotation);
+                GameObject deathPlayer = Instantiate(deathPlayerPrefab, playerGameObject.transform.position, playerGameObject.transform.rotation);
                 deathPlayer.transform.localScale = new Vector3(playerGameObject.transform.localScale.x, playerGameObject.transform.localScale.y, playerGameObject.transform.localScale.z);
                 player.deathState = false;
                 Invoke("ReloadLevel", 3);
@@ -34,7 +34,7 @@ namespace Platformer
 
         private void ReloadLevel()
         {
-            Application.LoadLevel(Application.loadedLevel);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
     }
 }

@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: 510e8813f4cd0aa46a6a7b98fe74ac06
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character Animation Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1093
+        width: 542
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5155098, y: 0.49027026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e0f8ef74c2ce8428ce123d1ccb1c55
+      internalID: 1308468012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1299
+        width: 169
+        height: 201
+      alignment: 9
+      pivot: {x: 0.6992498, y: -0.0025847326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e925da52fe43e64893b777c3e8ff4cd
+      internalID: -1553031580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1409
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2c9ae60f888bd4cab0f142017ca71f
+      internalID: 1257227949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1409
+        width: 92
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998cfc7a0a7129647b08dd3708fb2963
+      internalID: 1505033758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1258
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55db19aaf8fdba458a4f8612093623e
+      internalID: 1868548587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1262
+        width: 98
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62d4a17bd9e5b24aa16a1f9b235237d
+      internalID: -783178591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 773
+        width: 204
+        height: 207
+      alignment: 9
+      pivot: {x: 0.6886455, y: 0.24437268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562e92051d5787a48b6571f7196e5699
+      internalID: -1491017479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 759
+        width: 223
+        height: 222
+      alignment: 9
+      pivot: {x: 0.32742733, y: 0.28331283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2e3097cd2a647428524024c09f37bb
+      internalID: 1369595563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 966
+        width: 127
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db8ddd04f29a3647a22ae777152320e
+      internalID: 2004748922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 968
+        width: 127
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfc2a88b2db2ff44a4a2f28707855dc
+      internalID: 265832259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1348
+        width: 511
+        height: 210
+      alignment: 9
+      pivot: {x: 0.47175875, y: 0.4770938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdc9236b34bd6a4c8b3bca8c162f499
+      internalID: -216466225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1214
+        width: 516
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5652584, y: 0.50000113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2964401e30754147863ab2f20dca1dc
+      internalID: -903612380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animation Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 937
+        width: 613
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5627792, y: 0.47687355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14358b427c3abcf4dbadaec932276391
+      internalID: -627570544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Character Animation Sprite_0: 1308468012
+      Character Animation Sprite_1: -1553031580
+      Character Animation Sprite_10: -216466225
+      Character Animation Sprite_11: -903612380
+      Character Animation Sprite_12: -627570544
+      Character Animation Sprite_2: 1257227949
+      Character Animation Sprite_3: 1505033758
+      Character Animation Sprite_4: 1868548587
+      Character Animation Sprite_5: -783178591
+      Character Animation Sprite_6: -1491017479
+      Character Animation Sprite_7: 1369595563
+      Character Animation Sprite_8: 2004748922
+      Character Animation Sprite_9: 265832259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
